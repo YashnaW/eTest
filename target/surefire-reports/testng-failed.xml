@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [io.linkedin.testcases.LinkedInLoginTest]" verbose="0">
+  <test thread-count="5" name="Command line test(failed)" verbose="0">
+    <classes>
+      <class name="io.linkedin.testcases.LinkedInLoginTest">
+        <methods>
+          <include name="readConfig"/>
+          <include name="Linked_In_Login_Test"/>
+        </methods>
+      </class> <!-- io.linkedin.testcases.LinkedInLoginTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [io.linkedin.testcases.LinkedInLoginTest] -->
